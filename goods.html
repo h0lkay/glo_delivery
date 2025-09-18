@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/index.js" defer></script>
     <title>Delivery food</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
                     <button class="btn btn-primary">
                         <img src="./images/icons/user.svg" alt="user">Войти
                     </button>
-                    <button class="btn btn-outline">
+                    <button class="btn btn-outline" id="cart-button">
                         <img src="./images/icons/shopping-cart.svg" alt="cart">Корзина
                     </button>
                 </div>
@@ -32,7 +33,7 @@
     <main class="main">
         <section class="products">
             <div class="container">
-                <div class="products-wrapper">
+                <div class="products-wrapper" id="goods-container">
                 <div class="products-card">
                     <div class="products-card__image">
                         <img src="./images/goods/good1.jpg" alt="good-1">
